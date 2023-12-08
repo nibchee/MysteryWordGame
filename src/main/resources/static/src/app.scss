@@ -1,0 +1,20 @@
+*{
+   font-family:Georgia, 'Times New Roman', Times, serif;  
+}
+
+.grid-area{
+   table{
+   max-width: 700px;
+   margin: auto;
+   user-select: none;
+   td{
+      width: 20px;
+          height: 20px;
+          &.selected{
+            color: blue;   
+         }          
+   }
+}
+
+
+}
